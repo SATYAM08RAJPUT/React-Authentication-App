@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 This is a React-based authentication application built with Vite build tool. The app provides a Login and Sign-Up interface with client-side validation and form handling.
 
 ## Live Demo
-https://gorgeous-sable-824726.netlify.app/
+https://user-registration-axsoft.netlify.app/
 
 ## Features
 - Login and Sign-Up screens

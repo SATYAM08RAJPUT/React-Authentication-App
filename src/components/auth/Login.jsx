@@ -13,7 +13,7 @@ const Login = () => {
   
     const validateInputs = () => {
         const errors = {};
-        if (!/^[\w!@#$%^&*]+$/.test(userName)) errors.userName = 'Please Enter Valid Username.';
+        if (!/^[\w!@#$%^&*]+$/.test(userName)) errors.userName = 'Please enter valid username.';
         if (userName === password) errors.password = 'Password cannot be same as user name.';
         if(!password){
             errors.password = 'Enter a valid password.';

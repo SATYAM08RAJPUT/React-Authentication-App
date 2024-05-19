@@ -17,12 +17,12 @@ const Signup = () => {
 
   const validateInputs = () => {
     const errors = {};
-    if (!/^[A-Za-z]+$/.test(name)) errors.name = 'Enter Your Name.';
-    if (!/^[\w!@#$%^&*]+$/.test(userName)) errors.userName = 'Enter Your username.';
+    if (!/^[A-Za-z]+$/.test(name)) errors.name = 'Enter your name.';
+    if (!/^[\w!@#$%^&*]+$/.test(userName)) errors.userName = 'Enter your username.';
     if (userName === password) errors.password = 'Password cannot be same as user name.';
     if (password !== confirmPassword) errors.confirmPassword = 'Passwords do not match.';
-    if (!/^[A-Za-z0-9._%+-]+@gmail.com$/.test(email)) errors.email = 'Enter Your address.';
-    if (!/^((\+91)?|91)?[0-9]{9}/.test(phone)) errors.phone = 'Enter Your phone number.';
+    if (!/^[A-Za-z0-9._%+-]+@gmail.com$/.test(email)) errors.email = 'Enter your address.';
+    if (!/^((\+91)?|91)?[0-9]{9}/.test(phone)) errors.phone = 'Enter your phone number.';
     setError(errors);
     return Object.keys(errors).length === 0;
   };

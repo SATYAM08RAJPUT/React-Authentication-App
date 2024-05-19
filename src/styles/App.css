@@ -143,6 +143,7 @@ input:focus{
   font-size: 12px;
   margin-top: -25px;
   padding: 10px;
+  margin-left: -10px;
 }
 
 .signup-title{
@@ -181,7 +182,6 @@ input:focus{
   border: none;
   color: white;
 }
-
 
 
 @media (max-width: 700px) {

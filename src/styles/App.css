@@ -182,7 +182,6 @@ input:focus{
   color: white;
 }
 
-
 @media (max-width: 700px) {
   .form-container {
     max-width: 700px;

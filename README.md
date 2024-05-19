@@ -45,5 +45,5 @@ To get started with this project, follow these steps:
     npm run dev
 
 4. *Build for production:*
-  ```bash
+   ```bash
     npm run build
